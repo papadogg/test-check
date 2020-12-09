@@ -14,9 +14,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest",
     "eject": "react-scripts eject",
-    "url-test": "start-server-and-test start http://localhost:3000 test"
+    "test": "start-server-and-test start http://localhost:3000 jest"
   },
   "eslintConfig": {
     "extends": [
